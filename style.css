@@ -3,7 +3,9 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+    /* background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85)); */
+    background-color: #636e72;
+
 }
 
 img {
