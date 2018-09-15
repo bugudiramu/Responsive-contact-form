@@ -4,8 +4,8 @@
 
 body {
     /* background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85)); */
-    background-color: #636e72;
-
+    /* background-color: #636e72; */
+    background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
 }
 
 img {
@@ -15,6 +15,10 @@ img {
     margin-left: 45%;
     margin-top: 1%;
     cursor: pointer;
+}
+
+img:hover {
+    box-shadow: 1px 1px 20px #e17055;
 }
 
 input[type="text"],
@@ -88,8 +92,8 @@ h2 {
     text-align: center;
     margin-top: 20px;
     font-weight: bolder;
-    text-shadow: 2px 2px 3px coral;
-    color: coral;
+    text-shadow: 2px 2px 1px #81ecec;
+    color: #00b894;
     letter-spacing: 0.04em;
     line-height: 2em;
     /* text-decoration: underline; */
