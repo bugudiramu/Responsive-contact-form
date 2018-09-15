@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact-Form</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h2>Responsive-Contact-Form</h2>
+        <div id="main">
+            <span id="openBtn">&#9776; Open </span>
+        </div>
+
+        <div id="form">
+            <form class="col-md-12 col-sm-12 col-lg-8" action="">
+                <h2>Contact-Form</h2>
+                <img src="img/avatar.png" alt="avatar image" width="80" height="80">
+                <span><a id="closeBtn" href="#">&times;</a></span>
+                <label>FirstName:</label>
+                <input type="text" name="fname" placeholder="FirstName">
+                <label>LastName:</label>
+                <input type="text" name="lname" placeholder="LastName">
+                <label>Email:</label>
+                <input type="text" name="email" placeholder="Email" required>
+                <label>Phone No:</label>
+                <input type="text" name="phone number" placeholder="Phone No">
+                <label>Adress:</label>
+                <input type="text" name="Address" placeholder="Address" required>
+                <label>Country</label>
+                <select name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <label>TextArea:</label>
+                <textarea name="textarea" cols="30" rows="10"></textarea>
+                <label>Submit:</label><br>
+                <button id="submitBtn" class="btn btn-outline-info" name="button" value="button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
